@@ -21,17 +21,17 @@ public class Circle extends Shape {
     }
 
     public double getArea(){
-        return Math.PI * Math.pow(radius, 2);
+        return Math.PI * Math.pow(this.radius, 2);
     }
 
     public double getPerimeter(){
-        return 2* Math.PI *radius;
+        return 2* Math.PI *this.radius;
     }
-    
+
     @Override
     public String toString(){
-        return "A Circle with radius=%.2f, which is a subclass of %s", 
-                this.radius , 
-                super.toString();
+        return String.format("A Circle with radius=%.2f, which is a subclass of %s",
+                this.radius ,
+                super.toString());
     }
 }
