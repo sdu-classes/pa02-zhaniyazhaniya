@@ -1,6 +1,6 @@
 public class Rectangle extends Shape {
-    protected double width;
-    protected double length;
+    private double width;
+    private double length;
 
     public Rectangle() {
         this.width = 1.0;
