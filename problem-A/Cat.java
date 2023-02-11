@@ -9,6 +9,6 @@ public class Cat extends Mammal{
 
     @Override
     public String toString(){
-        return "Cat[" + super.toString() + "]";
+        return String.format("Cat[%s]",super.toString());
     }
 }
