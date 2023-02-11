@@ -44,6 +44,8 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return "Rectangle[" + super.toString() + "width=" + this.width + ",length=" + this.length + "]";
+        return String.format("A Rectangle with width=%.2f and length=%.2f, which is a subclass of %s",
+                this.width, this.length,
+                super.toString());
     }
 }
