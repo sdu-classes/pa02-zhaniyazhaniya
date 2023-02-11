@@ -12,12 +12,12 @@ public class Square extends Rectangle{
     }
 
     public double getSide(){
-        return this.width;
+        return super.getWidth();
     }
 
     public void setSide(double side){
-        this.width = side;
-        this.length = side;
+        super.setWidth(side);
+        super.setLength(side);
     }
 
     @Override
