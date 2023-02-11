@@ -5,6 +5,6 @@ public class Mammal extends Animal{
 
     @Override
     public String toString(){
-        return "Mammal[" + super.toString() + "]";
+        return String.format("Mammal[\"%s\"]", super.toString());
     }
 }
