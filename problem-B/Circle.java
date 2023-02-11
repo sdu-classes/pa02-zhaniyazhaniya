@@ -30,7 +30,8 @@ public class Circle extends Shape {
     
     @Override
     public String toString(){
-        return "Circle[" + super.toString() + ",radius=" + this.radius+"]";
+        return "A Circle with radius=%.2f, which is a subclass of %s", 
+                this.radius , 
+                super.toString();
     }
-
 }
