@@ -28,6 +28,6 @@ public class Shape {
     }
 
     public String toString(){
-        return "Shape[color=" + this.color+ ",filled="+ this.filled+ "]";
+        return String.format("A Shape with color of %s and %s", this.color, this.filled ? "filled" : "not filled");;
     }
 }
